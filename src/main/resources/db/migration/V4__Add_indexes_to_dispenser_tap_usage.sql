@@ -1,0 +1,3 @@
+CREATE INDEX idx_dispenser_tap_usage_dispenser_id ON dispenser_tap_usage(dispenser_id);
+CREATE INDEX idx_dispenser_tap_usage_started_at ON dispenser_tap_usage(started_at);
+CREATE INDEX idx_dispenser_tap_usage_ended_at ON dispenser_tap_usage(ended_at);
